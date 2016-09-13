@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ATKit"
-  s.version      = "0.0.4"
+  s.version      = "0.0.6"
   s.summary      = "A collection of iOS components"
 
   s.description  = <<-DESC
