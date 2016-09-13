@@ -6,7 +6,7 @@
 
 # Installation
 
-#### CocoaPods
+### CocoaPods
 
 1. Add `pod 'ATKit'` to your Podfile.
 2. Run `pod install` or `pod update` .
@@ -14,7 +14,7 @@
 
 
 
-#### Framework
+### Framework
 
 1. Download all the files in the `ATKit` subdirectory.
 2. Add the `ATKit/Products/ATKit.framework` to your Xcode project.
@@ -23,7 +23,7 @@
 
 
 
-#### Manually
+### Manually
 
 1. Download all the files in the `ATKit` subdirectory.
 2. Delete `ATKit/Info.plist` and add the `ATKit/*` to your Xcode project.
@@ -53,25 +53,25 @@
 
 These documents have published to author [**@AesirTitan**](http://www.jianshu.com/users/8a50e44f862a/latest_articles) 's  [**ATKit开源框架**](http://www.jianshu.com/notebooks/6236581/latest) subject。
 
-#### ATFoundation
+### ATFoundation
 
 Advice on this part of the global header file is used, contains a lot of the strengthening of the basis functions.
 
 - **[FileStream chained wrapper, more elegantly access sandbox files](http://www.jianshu.com/p/6e9f562d81d2)**
 
-#### ATProgressHUD
+### ATProgressHUD
 
 Prompt dialog box controls.
 
-#### ATDrawer
+### ATDrawer
 
 Lateral spreads gestures framework.
 
-#### ATCarousel
+### ATCarousel
 
 Carousel view framework.
 
-#### ATTabBar
+### ATTabBar
 
 Slideable TabBar framework (currently only at the top of the title bar of the TabBar)
 
@@ -89,9 +89,11 @@ ATKit is available under the MIT license. See the LICENSE file for more info.
 
 
 
+------
+
 ## 安装
 
-#### CocoaPods 方式
+### CocoaPods 方式
 
 1. 在Podfile中添加 `pod 'ATKit'` 。
 2. 执行 `pod install` 或者 `pod update` 。
@@ -99,7 +101,7 @@ ATKit is available under the MIT license. See the LICENSE file for more info.
 
 
 
-#### 静态库方式
+### 静态库方式
 
 1. 下载所有源码。
 
@@ -113,7 +115,7 @@ ATKit is available under the MIT license. See the LICENSE file for more info.
 
 
 
-#### 手动导入
+### 手动导入
 
 1. 下载所有源码。
 2. 删除 `ATKit` 文件夹下的 `Info.plist` 文件，并把  `ATKit` 文件夹所有源码拖入项目中。
@@ -143,26 +145,26 @@ ATKit is available under the MIT license. See the LICENSE file for more info.
 
 以下文档发布在作者[**@AesirTitan**](http://www.jianshu.com/users/8a50e44f862a/latest_articles)的简书[**ATKit开源框架**](http://www.jianshu.com/notebooks/6236581/latest)专题。
 
-#### ATFoundation
+### ATFoundation
 
 这一部分建议放在全局头文件中使用，包含了很多基础功能的强化
 
 - **[FileStream链式封装，更优雅地存取沙盒文件](http://www.jianshu.com/p/6e9f562d81d2)**
 
 
-#### ATProgressHUD
+### ATProgressHUD
 
 提示框控件
 
-#### ATDrawer
+### ATDrawer
 
 侧滑手势
 
-#### ATCarousel
+### ATCarousel
 
 轮播图
 
-#### ATTabBar
+### ATTabBar
 
 支持滑动的TabBar框架（目前只有顶部标题栏的TabBar）
 
