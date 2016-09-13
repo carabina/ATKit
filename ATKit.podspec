@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ATKit"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "A collection of iOS components"
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/AesirTitan/ATKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/AesirTitan/ATKit.git", :tag => "v#{s.version}" }
 
   s.source_files  = "ATKit/**/*.{h,m}"
   # s.default_subspec = 'All'
