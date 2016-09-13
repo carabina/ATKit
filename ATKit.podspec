@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ATKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A collection of iOS components"
 
   s.description  = <<-DESC
@@ -27,28 +27,28 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/AesirTitan/ATKit.git", :tag => "#{s.version}" }
 
-  # s.source_files  = "ATKit/**/*.{h,m}"
-  s.default_subspec = 'All'
-  s.subspec 'All' do |ss|
-    ss.dependency 'ATKit/ATFoundation'
-    ss.dependency 'ATKit/ATCarousel'
-    ss.dependency 'ATKit/ATDrawer'
-    ss.dependency 'ATKit/ATTabBar'
-  end
-
-  s.subspec 'ATFoundation' do |ss|
-    ss.source_files = 'ATKit/*.{h,m}'
-    ss.source_files = 'ATKit/ATFoundation/*.{h,m}', 'ATKit/Foundation/**/*.{h,m}'
-  end
-  s.subspec 'ATCarousel' do |ss|
-    ss.source_files = 'ATKit/ATCarousel/*.{h,m}'
-  end
-  s.subspec 'ATDrawer' do |ss|
-    ss.source_files = 'ATKit/ATDrawer/*.{h,m}'
-  end
-  s.subspec 'ATTabBar' do |ss|
-    ss.source_files = 'ATKit/ATTabBar/*.{h,m}'
-  end
+  s.source_files  = "ATKit/**/*.{h,m}"
+  # s.default_subspec = 'All'
+  # s.subspec 'All' do |ss|
+  #   ss.dependency 'ATKit/ATFoundation'
+  #   ss.dependency 'ATKit/ATCarousel'
+  #   ss.dependency 'ATKit/ATDrawer'
+  #   ss.dependency 'ATKit/ATTabBar'
+  # end
+  #
+  # s.subspec 'ATFoundation' do |ss|
+  #   ss.source_files = 'ATKit/*.{h,m}'
+  #   ss.source_files = 'ATKit/ATFoundation/*.{h,m}', 'ATKit/Foundation/**/*.{h,m}'
+  # end
+  # s.subspec 'ATCarousel' do |ss|
+  #   ss.source_files = 'ATKit/ATCarousel/*.{h,m}'
+  # end
+  # s.subspec 'ATDrawer' do |ss|
+  #   ss.source_files = 'ATKit/ATDrawer/*.{h,m}'
+  # end
+  # s.subspec 'ATTabBar' do |ss|
+  #   ss.source_files = 'ATKit/ATTabBar/*.{h,m}'
+  # end
 
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = 'ATKit/**/*.{h}'
