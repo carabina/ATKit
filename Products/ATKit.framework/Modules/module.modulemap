@@ -1,0 +1,6 @@
+framework module ATKit {
+  umbrella header "ATKit.h"
+
+  export *
+  module * { export * }
+}
