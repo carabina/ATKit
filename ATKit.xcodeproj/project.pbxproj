@@ -88,6 +88,8 @@
 		DD4162E81D8728A700FCBCE0 /* UIView+ATGestureExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4162AB1D8728A700FCBCE0 /* UIView+ATGestureExtension.m */; };
 		DD4162EB1D8728A700FCBCE0 /* ATTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4162B01D8728A700FCBCE0 /* ATTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD4162EC1D8728A700FCBCE0 /* ATTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4162B11D8728A700FCBCE0 /* ATTabBarView.m */; };
+		DD6534031D87E1E800C0917E /* ATProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6534011D87E1E800C0917E /* ATProgressHUD.h */; };
+		DD6534041D87E1E800C0917E /* ATProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6534021D87E1E800C0917E /* ATProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +190,8 @@
 		DD4162AB1D8728A700FCBCE0 /* UIView+ATGestureExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ATGestureExtension.m"; sourceTree = "<group>"; };
 		DD4162B01D8728A700FCBCE0 /* ATTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTabBarView.h; sourceTree = "<group>"; };
 		DD4162B11D8728A700FCBCE0 /* ATTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTabBarView.m; sourceTree = "<group>"; };
+		DD6534011D87E1E800C0917E /* ATProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATProgressHUD.h; sourceTree = "<group>"; };
+		DD6534021D87E1E800C0917E /* ATProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +261,7 @@
 		DD1C0C471D8658A60077A3C7 /* ATKit */ = {
 			isa = PBXGroup;
 			children = (
+				DD6534001D87E1E800C0917E /* ATProgressHUD */,
 				DD4162701D8728A700FCBCE0 /* ATCarousel */,
 				DD4162731D8728A700FCBCE0 /* ATDrawer */,
 				DD4162771D8728A700FCBCE0 /* ATFoundation */,
@@ -368,6 +373,15 @@
 			path = ATTabBar;
 			sourceTree = "<group>";
 		};
+		DD6534001D87E1E800C0917E /* ATProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DD6534011D87E1E800C0917E /* ATProgressHUD.h */,
+				DD6534021D87E1E800C0917E /* ATProgressHUD.m */,
+			);
+			path = ATProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -391,6 +405,7 @@
 				DD4162D91D8728A700FCBCE0 /* UIImage+ATExtension.h in Headers */,
 				DD4162C61D8728A700FCBCE0 /* Foundation+ATMacros.h in Headers */,
 				DD4162E11D8728A700FCBCE0 /* UIView+ATAnimationWrapper.h in Headers */,
+				DD6534031D87E1E800C0917E /* ATProgressHUD.h in Headers */,
 				DD4162E31D8728A700FCBCE0 /* UIView+ATExtension.h in Headers */,
 				DD4162DF1D8728A700FCBCE0 /* UITextView+ATExtension.h in Headers */,
 				DD4162C71D8728A700FCBCE0 /* CIImage+ATScaleExtension.h in Headers */,
@@ -565,6 +580,7 @@
 				DD4162B31D8728A700FCBCE0 /* ATCarouselView.m in Sources */,
 				DD4162CE1D8728A700FCBCE0 /* UIColor+ATColorPack.m in Sources */,
 				DD4162E81D8728A700FCBCE0 /* UIView+ATGestureExtension.m in Sources */,
+				DD6534041D87E1E800C0917E /* ATProgressHUD.m in Sources */,
 				DD4162DA1D8728A700FCBCE0 /* UIImage+ATExtension.m in Sources */,
 				DD4162DE1D8728A700FCBCE0 /* UITextField+ATExtension.m in Sources */,
 				DD4162C11D8728A700FCBCE0 /* NSString+ATExtension.m in Sources */,
