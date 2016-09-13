@@ -129,7 +129,7 @@ ATKit is available under the MIT license. See the LICENSE file for more info.
 
 | 模块            | 描述                       |
 | ------------- | ------------------------ |
-| ATFoundation  | Foundation 扩展和增强        |
+| ATFoundation  | Foundation 的扩展和增强        |
 | ATProgressHUD | 一个简单易用的提示框               |
 | ATCarousel    | 轮播图                      |
 | ATDrawer      | 侧滑手势框架                   |
